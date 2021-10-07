@@ -1,0 +1,239 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+// Стиллизация 
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+
+.content {
+	flex: 1 1 auto;
+}
+.hi {
+	background-color: #4d5766;
+	padding: 50px 0px;
+
+		&__row {
+			display: flex;
+			justify-content: space-between;
+			
+		}
+
+		&__body {
+
+		
+		}
+
+		&__title {
+			font-size: 40px;
+			padding: 0 0 68px 0;
+			color: white;	
+
+		}
+
+		&__list {
+			
+			& li{
+				background: url(/flex/img/icons/icon.png) 0px 0px no-repeat;
+				padding: 0 0 20px 40px;
+				font-size: 20px;
+				color: white;	
+
+			}
+		}
+
+		&__image {
+		}
+}
+
+.what {
+
+	&__row {
+		display: flex;
+		padding: 50px 0px;
+	}
+
+	&__image {
+		flex: 0 0 400px;
+		max-width: 100%;
+	
+		
+	}
+
+	&__body {
+		flex: 1 1 auto;
+		padding: 0 0 0 38px;
+	}
+
+	&__title {
+		padding:  0 0 40px 0 ;
+	}
+
+	&__text {
+		& p{
+			margin: 0 0 20px 0;	
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+}
+
+.columns {
+	padding: 50px 0 20px 0;
+
+	&__title {
+		text-align: center;
+		margin: 0 0 25px 0;
+	}
+
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -8px;
+	}
+
+	&__column {
+		flex: 0 1 50%;
+		margin: 0 0 30px 0;
+		padding: 0 8px;
+
+	}
+
+	&__item {
+		
+	}
+}
+
+.item {
+
+	&__row {
+		display: flex;
+	}
+
+	&__image {
+		flex: 0 0 200px;
+		padding: 0 10px 0 0;
+	}
+
+	&__body {
+		flex: 1 1 auto;
+	}
+
+	&__tilte {
+	}
+
+	&__text {
+	}
+}
+
+
+.title {
+	font-size: 30px;
+	text-shadow: 2px 2px 3px chocolate;
+}
+
+.vertical {
+	padding: 50px 0;
+
+	&__title {
+		text-align: center;
+		margin: 0 0 30px 0;
+	}
+
+	&__body {
+		max-width: 990px;
+		margin: 0 auto;
+	}
+
+	&__row {
+		display: flex;
+		margin: 0 -22.5px;
+	}
+
+	&__column {
+		flex: 0 1 33.3333%;
+		padding: 0 22.5px;
+		display: flex;
+		
+	}
+
+	&__item {
+		background: rgb(63, 61, 70);
+		color: white;
+		border-radius: 5px;
+		border: 1px solid rgb(63, 61, 70);
+		padding: 0 0 20px 0;
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	&__subtitle {
+		font-size: 24px;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 12px 0;
+	}
+
+	&__label {
+		text-align: center;
+		background-color: white;
+		color: blueviolet;
+		padding: 15px;
+		font-size: 32px;
+	}
+
+	&__text {
+		padding: 20px;
+		font-size: 14px;
+		line-height: 24px;
+		flex: 1 1 auto;
+	}
+
+	&__btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 20px;
+		background-color: blanchedalmond;
+		color: black;
+		height: 50px;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 20px;
+
+	}
+}
+
+
+
+
+.footer {
+	
+	background: rgb(156, 156, 156);
+		&__row {
+			display: flex;
+			height: 65px;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&__text {
+			color: rgb(255, 255, 255);
+			font-weight: 700;
+			font-size: 12px;
+			letter-spacing: 0.8px;
+		}
+}
