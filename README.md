@@ -5,7 +5,7 @@ Step #1. Create a clone of the project
 ```sh
 In Git CMD , specify the path to the folder where you want to clone the project.
 Then enter the command :                                             
-clone git https://github.com/rojinald/flex-practic_2.git
+git clone https://github.com/rojinald/flex-practic_2.git
 ```
 Step #2. Connect Prepros to the project
 ```sh
